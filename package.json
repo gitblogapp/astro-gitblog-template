@@ -42,9 +42,9 @@
     "images:optimize": "node scripts/optimize-images.mjs"
   },
   "dependencies": {
-    "@gitblogapp/browser": "0.1.1",
-    "@gitblogapp/cli": "0.1.1",
-    "@gitblogapp/core": "0.1.1",
+    "@gitblogapp/browser": "file:vendor/gitblog-packages/gitblogapp-browser-0.2.0.tgz",
+    "@gitblogapp/cli": "file:vendor/gitblog-packages/gitblogapp-cli-0.2.0.tgz",
+    "@gitblogapp/core": "file:vendor/gitblog-packages/gitblogapp-core-0.2.0.tgz",
     "astro": "^7.3.5",
     "cheerio": "^1.2.0",
     "gray-matter": "^4.0.3",
